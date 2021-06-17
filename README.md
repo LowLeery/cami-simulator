@@ -1,4 +1,7 @@
-# cami_simulator
+# cami_simulator V1.0.0
+**ŞUANLIK SADECE BELIRLI DEĞERLER VEREN VE ÇOK BASİT AMAÇLA YAPILMIŞ BİR PROGRAM İDİR.**<br>
+**İLERLİYEN SÜRÜMLERDE DAHA KEYİF VERİCİ BİR PROGRAM YAPMAK DİLEĞİYLE.**<br>
+<br>
 can sıkıntısından eğlence amaçlı yapılmış bir program idir.<br>
 **DC**: leri#3131
 
