@@ -1,4 +1,5 @@
 # cami_simulator V1.0.0
+*kur-an kursundan sonra boks maçı yapmayan bizden değildir agaa* <br>
 **ŞUANLIK SADECE BELIRLI DEĞERLER VEREN VE ÇOK BASİT AMAÇLA YAPILMIŞ BİR PROGRAM İDİR.**<br>
 **İLERLİYEN SÜRÜMLERDE DAHA KEYİF VERİCİ BİR PROGRAM YAPMAK DİLEĞİYLE.**<br>
 <br>
