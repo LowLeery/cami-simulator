@@ -56,7 +56,7 @@ exit 0
 clear
 chafa camiresmi.jpeg
 echo -e ""
-echo -e "              ~~~~~~~~~~~~~~~~~~~~~ ${sari}Cami_Simulator ${beyaz}~~~~~~~~~~~~~~~~~~~~~~~~~              " 
+echo -e "              ~~~~~~~~~~~~~~~~~~~~~ ${sari}cami_simulator ${beyaz}~~~~~~~~~~~~~~~~~~~~~~~~~              " 
 echo ""
 echo " [Y] ☯ Yumruk" 
 echo " [T] ☯ Tekme" 
