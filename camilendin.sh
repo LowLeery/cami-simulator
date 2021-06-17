@@ -128,7 +128,7 @@ function oc {
         ;;
     esac
 }
-
+# sj
 while :; do
   oc # OL ARTIK OROSPU EVLADI
 done
