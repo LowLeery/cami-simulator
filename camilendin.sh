@@ -56,11 +56,18 @@ exit 0
 clear
 chafa camiresmi.jpeg
 echo -e ""
-echo -e "              ~~~~~~~~~~~~~~~~~~~~~ ${sari}cami_simulator ${beyaz}~~~~~~~~~~~~~~~~~~~~~~~~~              " 
+echo -e "                ~~~~~~~~~~~~~~~~~~~~~ ${sari}cami_simulator ${beyaz}~~~~~~~~~~~~~~~~~~~~~              " 
 echo ""
+if [[ -f abdestalindi ]] ; then
 echo " [Y] ☯ Yumruk" 
 echo " [T] ☯ Tekme" 
 echo " [S] ☯ SMEKDAWN" 
+else
+echo " [Y] ☯ Yumruk" 
+echo " [T] ☯ Tekme" 
+echo " [S] ☯ SMEKDAWN" 
+echo " [A] ☯ QUICK ABDEST" 
+fi
 echo ""
 echo -ne "${kirmizi}Kendi bilgisayarınız ile dövüşmek için sayılardan herhangi birini seç\n${beyaz}↳[${blink}${kapalimavininacikolani}SJ${tp}]➢ " ; read option
 
@@ -68,67 +75,203 @@ function oc {
     case "$option" in
         y)
             clear
+            if [[ -f abdestalindi ]] ; then
+            rm abdestalindi
+            echo -e "${yesil}$USER: ${beyaz}Ahmet yardım et"
+            echo -e "${kirmizi}Vuruş gücü: ${beyaz}${blink}$RANDOM"${tp}
+            echo ""
+            echo " [Y] ☯ Yumruk" 
+            echo " [T] ☯ Tekme" 
+            echo " [S] ☯ SMEKDAWN" 
+            else 
             echo -e "${yesil}$USER: ${beyaz}AAAA KAFAMA GELDI"
             echo -e "${kirmizi}Vuruş gücü: ${beyaz}${blink}$RANDOM"${tp}
             echo ""
             echo " [Y] ☯ Yumruk" 
             echo " [T] ☯ Tekme" 
             echo " [S] ☯ SMEKDAWN" 
+            echo " [A] ☯ QUICK ABDEST"
+            fi
             komutkullan
         ;;
         Y)
             clear
-            echo -e "${yesil}$USER: ${beyaz}AAAA KAFAMA GELDI"
+            if [[ -f abdestalindi ]] ; then
+            rm abdestalindi
+            echo -e "${yesil}$USER: ${beyaz}Ne gülüyon lan???"
             echo -e "${kirmizi}Vuruş gücü: ${beyaz}${blink}$RANDOM"${tp}
             echo ""
             echo " [Y] ☯ Yumruk" 
             echo " [T] ☯ Tekme" 
             echo " [S] ☯ SMEKDAWN" 
+            else 
+            echo -e "${sari}$USER: ${beyaz}HOCAM GAFAMA VURUYO"
+            echo -e "${kirmizi}Vuruş gücü: ${beyaz}${blink}$RANDOM"${tp}
+            echo ""
+            echo " [Y] ☯ Yumruk" 
+            echo " [T] ☯ Tekme" 
+            echo " [S] ☯ SMEKDAWN" 
+            echo " [A] ☯ QUICK ABDEST"
+            fi
             komutkullan
         ;;
         t)
             clear
-            echo -e "${yesil}$USER: ${beyaz}taşaklara vurma len"
+            if [[ -f abdestalindi ]] ; then
+            rm abdestalindi
+            echo -e "${yesil}$USER: ${beyaz}Ayağın kokuyo lan"
             echo -e "${kirmizi}Vuruş gücü: ${beyaz}${blink}$RANDOM"${tp}
             echo ""
             echo " [Y] ☯ Yumruk" 
             echo " [T] ☯ Tekme" 
             echo " [S] ☯ SMEKDAWN" 
+            else 
+            echo -e "${kirmizi}$USER: ${beyaz}UÇANNNN TEKMEEEE"
+            echo -e "${kirmizi}Vuruş gücü: ${beyaz}${blink}$RANDOM"${tp}
+            echo ""
+            echo " [Y] ☯ Yumruk" 
+            echo " [T] ☯ Tekme" 
+            echo " [S] ☯ SMEKDAWN" 
+            echo " [A] ☯ QUICK ABDEST"
+            fi
             komutkullan
         ;;
         T)
             clear
-            echo -e "${yesil}$USER: ${beyaz}taşaklara vurma len"
+            if [[ -f abdestalindi ]] ; then
+            rm abdestalindi
+            echo -e "${yesil}$USER: ${beyaz}Ayağın kokuyo lan"
             echo -e "${kirmizi}Vuruş gücü: ${beyaz}${blink}$RANDOM"${tp}
             echo ""
             echo " [Y] ☯ Yumruk" 
             echo " [T] ☯ Tekme" 
             echo " [S] ☯ SMEKDAWN" 
+            else 
+            echo -e "${yesil}$USER: ${beyaz}UÇANNNN TEKMEEEE (ayağını kırdın)"
+            echo -e "${kirmizi}Vuruş gücü: ${beyaz}${blink}$RANDOM"${tp}
+            echo ""
+            echo " [Y] ☯ Yumruk" 
+            echo " [T] ☯ Tekme" 
+            echo " [S] ☯ SMEKDAWN" 
+            echo " [A] ☯ QUICK ABDEST"
+            fi
             komutkullan
         ;;
         s)
             clear
-            echo -e "${yesil}$USER: ${beyaz}CAMİDE SMEKDAWN ÇEKTİM HAWLİ OLDUM AMA CİDDEN HAWLİ"
-            echo -e "${kirmizi}Vuruş gücü: ${beyaz}${blink}99931"${tp}
+            if [[ -f abdestalindi ]] ; then
+            rm abdestalindi
+            echo -e "${yesil}$USER: ${beyaz}BASH cidden güçlüymüş (öldü)"
+            echo -e "${kirmizi}Vuruş gücü: ${beyaz}${blink}99999"${tp}
+            echo ""
+            exit 1
+            else 
+            echo -e "${yesil}$USER: ${beyaz}Üstümden kalk lan!"
+            echo -e "${kirmizi}Vuruş gücü: ${beyaz}${blink}99999"${tp}
             echo ""
             echo " [Y] ☯ Yumruk" 
             echo " [T] ☯ Tekme" 
             echo " [S] ☯ SMEKDAWN" 
+            echo " [A] ☯ QUICK ABDEST"
+            fi
             komutkullan
         ;;
         S)
             clear
-            echo -e "${yesil}$USER: ${beyaz}CAMİDE SMEKDAWN ÇEKTİM HAWLİ OLDUM AMA CİDDEN HAWLİ"
-            echo -e "${kirmizi}Vuruş gücü: ${beyaz}${blink}99931"${tp}
+            if [[ -f abdestalindi ]] ; then
+            rm abdestalindi
+            echo -e "${yesil}$USER: ${beyaz}la ibo nerdesin"
+            echo -e "${kirmizi}Vuruş gücü: ${beyaz}${blink}99999"${tp}
+            echo ""
+            exit 1
+            else 
+            echo -e "${yesil}$USER: ${beyaz}BIRAK LAN KOLUMU"
+            echo -e "${kirmizi}Vuruş gücü: ${beyaz}${blink}99999"${tp}
             echo ""
             echo " [Y] ☯ Yumruk" 
             echo " [T] ☯ Tekme" 
             echo " [S] ☯ SMEKDAWN" 
+            echo " [A] ☯ QUICK ABDEST"
+            fi
             komutkullan
+        ;;
+        a)
+            clear
+            echo -e "${beyaz}3 Kere ağıza."
+            sleep 0.6
+            if [[ -f abdestalindi ]] ; then
+                clear
+                echo -e "${kirmizi}Zaten abdest almışsın dostum?" ${beyaz}
+                echo ""
+                echo " [Y] ☯ Yumruk" 
+                echo " [T] ☯ Tekme" 
+                echo " [S] ☯ SMEKDAWN" 
+                komutkullan
+            else
+                echo -e "${beyaz}3 Kere buruna (sümkür)."
+                sleep 1.2
+                echo -e "${beyaz}3 Kere yüzüne su çarp."
+                sleep 1.5
+                echo -e "${beyaz}3 Kere kollarını dirseğe kadar yıka."
+                sleep 2
+                echo -e "${beyaz}Başını mest et."
+                sleep 0.6
+                echo -e "${beyaz}Kulaklarını serçe parmağın ile 3 kere temizle. (ben böle biliyom aga)"
+                sleep 1
+                echo -e "${beyaz}3 Kere ayaklarını yıka."
+                sleep 3
+                echo -e "${beyaz}Heh ya amca oğlu böyle güzelce al abdestini işte 10 saniye beklede kurulan biraz."
+                touch abdestalindi
+                sleep 10
+                clear
+                echo -e "${sari}Abdest aldın." ${beyaz}
+                echo ""
+                echo " [Y] ☯ Yumruk" 
+                echo " [T] ☯ Tekme" 
+                echo " [S] ☯ SMEKDAWN" 
+                komutkullan
+            fi
+        ;;
+        A)
+            clear
+            echo -e "${beyaz}3 Kere ağıza."
+            sleep 0.6
+            if [[ -f abdestalindi ]] ; then
+                clear
+                echo -e "${kirmizi}Zaten abdest almışsın dostum?" ${beyaz}
+                echo ""
+                echo " [Y] ☯ Yumruk" 
+                echo " [T] ☯ Tekme" 
+                echo " [S] ☯ SMEKDAWN" 
+                komutkullan
+            else
+                echo -e "${beyaz}3 Kere buruna (sümkür)."
+                sleep 1.2
+                echo -e "${beyaz}3 Kere yüzüne su çarp."
+                sleep 1.5
+                echo -e "${beyaz}3 Kere kollarını dirseğe kadar yıka."
+                sleep 2
+                echo -e "${beyaz}Başını mest et."
+                sleep 0.6
+                echo -e "${beyaz}Kulaklarını serçe parmağın ile 3 kere temizle. (ben böle biliyom aga)"
+                sleep 1
+                echo -e "${beyaz}3 Kere ayaklarını yıka."
+                sleep 3
+                echo -e "${beyaz}Heh ya amca oğlu böyle güzelce al abdestini işte 10 saniye beklede kurulan biraz."
+                touch abdestalindi
+                sleep 10
+                clear
+                echo -e "${sari}Abdest aldın." ${beyaz}
+                echo ""
+                echo " [Y] ☯ Yumruk" 
+                echo " [T] ☯ Tekme" 
+                echo " [S] ☯ SMEKDAWN" 
+                komutkullan
+            fi
         ;;
     esac
 }
-# sj
+
 while :; do
-  oc # OL ARTIK OROSPU EVLADI
+  oc
 done
