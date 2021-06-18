@@ -4,7 +4,7 @@
 **İLERLİYEN SÜRÜMLERDE DAHA KEYİF VERİCİ BİR PROGRAM YAPMAK DİLEĞİYLE.**<br>
 <br>
 can sıkıntısından eğlence amaçlı yapılmış bir program idir.<br>
-**DC**: leri#3131
+**DC**: leri#3131 <br>
 **GEL AGA**: https://discord.gg/hF3EFWPFmk
 
 # Kullanma
