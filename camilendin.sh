@@ -28,7 +28,7 @@ else
         echo -e "${kapalimavininacikolani}Güncellemeler yapılıyor. (internet hızınıza göre değişebilir)${beyaz}"
         sleep 0.9
         sudo apt update
-        clear #sj
+        clear #sjmisin
         echo -e "${kapalimavininacikolani}Gerekli paketler indiriliyor [2]. (internet hızınıza göre değişebilir)${beyaz}"
         sleep 1
         sudo apt install chafa
