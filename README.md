@@ -9,7 +9,7 @@ can sıkıntısından eğlence amaçlı yapılmış bir program idir.<br>
 
 # Kullanma
 git clone https://github.com/LowLeery/cami_simulator.git <br>
-cd cami_simulator <br>
+cd cami-simulator <br>
 bash camilendin.sh
 
 
